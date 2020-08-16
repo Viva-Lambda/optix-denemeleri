@@ -39,4 +39,9 @@ set (FLAGS "-ldl -ggdb -Wall -Wextra -pedantic -Wextra-tokens")
 
 
 # per executable configurations
+
+# hello world
 add_subdirectory("${PROJECT_SOURCE_DIR}/src/ex01/")
+
+# first image gradient
+add_subdirectory("${PROJECT_SOURCE_DIR}/src/ex02/")
